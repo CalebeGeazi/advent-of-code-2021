@@ -1,5 +1,4 @@
-horizontal = 0
-depth = 0
+horizontal = depth = 0
 
 with open('input.txt') as commands:
     for command in commands:

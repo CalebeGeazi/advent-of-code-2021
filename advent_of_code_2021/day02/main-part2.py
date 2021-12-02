@@ -1,6 +1,4 @@
-horizontal = 0
-depth = 0
-aim = 0
+horizontal = depth = aim = 0
 
 with open('input.txt') as commands:
     for command in commands:
