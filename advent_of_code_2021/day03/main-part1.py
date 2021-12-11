@@ -1,6 +1,6 @@
 with open("input.txt") as file:
-    inputs = file.readlines()
-    inputs = [line.strip() for line in inputs]
+    lines = file.readlines()
+    inputs = [line.strip() for line in lines]
 
 # keep track of count for only 0 since 1 will be the inverse
 most_common_bits_counts_0 = [0] * len(inputs[0])
